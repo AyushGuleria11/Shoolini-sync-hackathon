@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Bike Rental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>🏍️ Student Bike Rental</h2>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#bikes">Bikes</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Ride Easy. Book Fast.</h1>
+        <p>Affordable bikes & scooters for students.</p>
+
+        <div class="search-box">
+            <input type="text" placeholder="Pickup Location">
+            <input type="date">
+            <select>
+                <option>Hourly Rental</option>
+                <option>Daily Rental</option>
+            </select>
+
+            <button onclick="searchBikes()">Search Bikes</button>
+        </div>
+    </section>
+
+    <section id="bikes">
+        <h2>Available Bikes</h2>
+
+        <div class="bike-container">
+
+            <div class="bike-card">
+                <h3>🛵 Honda Activa 6G</h3>
+                <p>₹60 / Hour</p>
+                <p>₹500 / Day</p>
+                <p>✅ Available</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="bike-card">
+                <h3>🏍️ Honda Shine</h3>
+                <p>₹70 / Hour</p>
+                <p>₹600 / Day</p>
+                <p>✅ Available</p>
+                <button>Book Now</button>
+            </div>
+
+            <div class="bike-card">
+                <h3>🏍️ Royal Enfield Classic</h3>
+                <p>₹120 / Hour</p>
+                <p>₹900 / Day</p>
+                <p>✅ Available</p>
+                <button>Book Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Student Bike Rental | Shoolini University</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
